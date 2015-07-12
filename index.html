@@ -3,8 +3,12 @@
 <head>
 <title>BigGym</title>
 <script src="assets/angular.min.js"></script>
+<script src="assets/main.js"></script>
 </head>
-<body>
+<body ng-app="bigGym">
 <h1>hello world</h1>
+<div ng-controller="MainController">
+  <h2>{{ text }}</h2>
+</div>
 </body>
 </html>
